@@ -41,10 +41,12 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.5",
-        "2amigos/yii2-selectize-widget": "^1.1",
+        "kartik-v/yii2-editable": "@dev",
+        "kartik-v/yii2-grid": "@dev",
+        "kartik-v/yii2-widget-select2": "dev-master"
         "yiisoft/yii2-authclient": "^2.1",
         "yiisoft/yii2-httpclient": "^2.0",
-        "yiisoft/yii2-bootstrap": "^2.0",
+        "yiisoft/yii2-bootstrap5": "*",
         "yiisoft/yii2-swiftmailer": "^2.0"
     },
     "suggest": {
