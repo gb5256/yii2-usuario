@@ -164,7 +164,7 @@ class User extends ActiveRecord implements IdentityInterface
             TimestampBehavior::class,
         ];
 
-        if ($this->module->enableGdprCompliance) {
+        if ($this->module && $this->module->enableGdprCompliance) {
             $behaviors['GDPR'] = [
                 'class' => TimestampBehavior::class,
                 'createdAtAttribute' => 'gdpr_consent_date',
